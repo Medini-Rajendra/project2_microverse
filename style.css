@@ -53,8 +53,9 @@ nav {
 
 .social_media_icons {
   list-style-type: none;
-  /*width: 50%;
-  height: 2em;*/
+
+  /* width: 50%;
+  height: 2em; */
   padding-left: 5%;
   margin-top: unset;
 }
@@ -68,7 +69,7 @@ nav {
 
 .mobilepara > ul > li:first-child {
   padding-left: unset;
-} 
+}
 
 .mobilepara > h4 {
   color: #7f8cff;
