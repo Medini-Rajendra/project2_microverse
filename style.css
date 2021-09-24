@@ -8,12 +8,13 @@ body {
 
 .main_heading {
   color: blue;
-  padding-left: 5%;
+  padding-left: 30%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+  width: 100%;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
   justify-content: space-between;
 }
 
-.menubutton {
+nav {
   color: black;
   margin: 6% 10%;
 }
@@ -51,10 +52,23 @@ body {
 }
 
 .social_media_icons {
-  width: 50%;
+  list-style-type: none;
+  /*width: 50%;
+  height: 2em;*/
+  padding-left: 5%;
+  margin-top: unset;
+}
+
+.mobilepara > ul > li {
+  display: inline;
   height: 2em;
+  width: 50%;
   padding-left: 5%;
 }
+
+.mobilepara > ul > li:first-child {
+  padding-left: unset;
+} 
 
 .mobilepara > h4 {
   color: #7f8cff;
